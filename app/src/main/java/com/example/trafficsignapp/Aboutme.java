@@ -29,7 +29,7 @@ public class Aboutme extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent fbIntent = new Intent(Intent.ACTION_VIEW);
-                fbIntent.setData(Uri.parse("https://www.facebook.com/RSEnero"));
+                fbIntent.setData(Uri.parse("https://www.facebook.com/peak.runbkk"));
                 startActivity(fbIntent);
             }
 
@@ -40,7 +40,7 @@ public class Aboutme extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent telIntent = new Intent(Intent.ACTION_DIAL);
-                telIntent.setData(Uri.parse("tel:0868816668"));
+                telIntent.setData(Uri.parse("tel:08990875916"));
                 startActivity(telIntent);
             }
         });
